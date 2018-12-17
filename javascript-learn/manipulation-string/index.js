@@ -15,17 +15,3 @@ console.log("Lower Case from the Sentence = ", lower);
 
 var upper = sentence1.toUpperCase();
 console.log("Upper Case from the Sentence = ", upper);
-
-function capitalize(str) {
-  var upper_first = [];
-  var sep = str.split(" ");
-  for (var i = 0; i < sep.length; i++) {
-    upper_first.push(sep[i][0].toUpperCase + sep[i], slice[1]);
-  }
-  return upper_first.join(" ");
-}
-var sentence2 = "i am not groot!";
-console.log(
-  "Upper Case First Letter Of The Sentence = ",
-  capitalize(sentence2)
-);
