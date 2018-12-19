@@ -24,8 +24,8 @@ console.log(result_mr);
 console.log("Girls");
 
 const result_mrs = names.filter(mrs => mrs.includes("Mrs. "));
-
 console.log(result_mrs);
+
 console.log("Gender Classification");
 console.log("Fork way");
 const male = result_mr.map(x => x + "(Male)");
